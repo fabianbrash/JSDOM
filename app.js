@@ -36,4 +36,7 @@ addListBtn.addEventListener('click', () => {
 
     //Attach the li to the user List
     userListRoot.appendChild(newLi);
+
+    //Clear form
+    listInput.value = '';
 })
